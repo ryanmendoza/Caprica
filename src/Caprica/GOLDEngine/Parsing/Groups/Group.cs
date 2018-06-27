@@ -14,11 +14,14 @@ namespace Caprica.GOLDEngine.Parsing.Groups
 
         internal EndingModeType Ending;
 
+        // ReSharper disable once NotAccessedField.Global
         internal string Name;
 
         internal Symbol Start;
 
+        #pragma warning disable CS0649
         internal short TableIndex;
+        #pragma warning restore CS0649
 
         internal Group()
         {

@@ -140,7 +140,7 @@
           </e>
         </e>
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="netstandard2.0" t="Include">
               <e p="Caprica.AssemblyInfo.cs" t="Include" />
             </e>
@@ -156,7 +156,7 @@
           <e p="Rules.html" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="netcoreapp2.0" t="Include">
               <e p="Caprica.UnitTests.AssemblyInfo.cs" t="Include" />
               <e p="Caprica.UnitTests.Program.cs" t="Include" />
@@ -168,7 +168,7 @@
       <e p="tests/PerformanceTests" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="netcoreapp2.0" t="Include">
               <e p="PerformanceTests.AssemblyInfo.cs" t="Include" />
             </e>
