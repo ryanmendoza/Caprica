@@ -2,156 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="106c99a6-9570-46db-a1d4-a8c5872ef71c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Caprica/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Caprica/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Caprica/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Caprica/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Caprica/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Caprica/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Caprica.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Abstractions/Disposable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Caprica.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/ByteExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/CollectionExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/DateTimeExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/DateTimeKindExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/DoubleExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/EnumerableExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/ExceptionExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/GenericExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/GuidExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/IPAddressExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/Int16Extensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/Int32Extensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/Int64Extensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/ListExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/NumberExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/ObjectExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/StringExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/TypeExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/UInt16Extensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/UInt32Extensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Extensions/UInt64Extensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/IO/Entry.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/IO/EntryType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/IO/RecordType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/IO/TableReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/CharacterRange.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/CharacterSet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/Exceptions/ParserException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/FAEdge.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/FAState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/FAStateList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/Grammar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/Groups/AdvanceModeType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/Groups/EndingModeType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/Groups/Group.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/LRAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/LRActionType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/LRConflictType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/LRState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/LRStateList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/ParseMessageType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/ParseResultType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/Parser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/Position.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/Production.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/ReductionList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/Symbol.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/SymbolTypes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/GOLDEngine/Parsing/Token.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Helpers/Guard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Exceptions/EvaluationException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Exceptions/ParseException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Exceptions/RuleNotFoundException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Exceptions/VariableNotFoundException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/BooleanExpression.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/ConditionalAndExpression.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/ConditionalOrExpression.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/ConstantExpression.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/EqualityExpression.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/EqualityOperator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/Expression.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/InExpression.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/LikeExpression.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/RelationalExpression.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/RelationalOperator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/TupleExpression.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/UnaryExpression.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/ValueExpression.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/VariableExpression.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Extensions/ReductionListExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Extensions/TokenExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Grammar/Rules.egt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Grammar/Rules.grm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Grammar/Rules.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Helpers/Constants.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Parsing/DefaultRuleLocator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Parsing/ExpressionBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Parsing/Interfaces/IRuleLocator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Parsing/Resolvers/Interfaces/IRuleTextResolver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Parsing/Resolvers/RuleTextResolver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Security/Interfaces/IAuthorizationProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Security/Rules/RuleAuthorizationContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/Infrastructure/Security/Rules/RuleAuthorizationProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/bin/Debug/netstandard2.0/Caprica.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/bin/Debug/netstandard2.0/Caprica.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/bin/Debug/netstandard2.0/Caprica.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/bin/Debug/netstandard2.0/Infrastructure/Rules/Grammar/Rules.egt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/obj/Caprica.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/obj/Caprica.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/obj/Caprica.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/obj/Debug/netstandard2.0/Caprica.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/obj/Debug/netstandard2.0/Caprica.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/obj/Debug/netstandard2.0/Caprica.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/obj/Debug/netstandard2.0/Caprica.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/obj/Debug/netstandard2.0/Caprica.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/obj/Debug/netstandard2.0/Caprica.csprojResolveAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/obj/Debug/netstandard2.0/Caprica.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/obj/Debug/netstandard2.0/Caprica.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Caprica/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Caprica.UnitTests/Caprica.UnitTests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Caprica.UnitTests/Grammar/Rules.egt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Caprica.UnitTests/Grammar/Rules.grm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Caprica.UnitTests/Grammar/Rules.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Caprica.UnitTests/ParserTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Caprica.UnitTests/bin/Debug/netcoreapp2.0/Caprica.UnitTests.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Caprica.UnitTests/bin/Debug/netcoreapp2.0/Caprica.UnitTests.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Caprica.UnitTests/bin/Debug/netcoreapp2.0/Caprica.UnitTests.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Caprica.UnitTests/bin/Debug/netcoreapp2.0/Caprica.UnitTests.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Caprica.UnitTests/bin/Debug/netcoreapp2.0/Caprica.UnitTests.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Caprica.UnitTests/bin/Debug/netcoreapp2.0/Caprica.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Caprica.UnitTests/bin/Debug/netcoreapp2.0/Caprica.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Caprica.UnitTests/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Caprica.UnitTests/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Caprica.UnitTests/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/PerformanceTests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/TestScenario.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/UserExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/bin/Debug/netcoreapp2.0/Caprica.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/bin/Debug/netcoreapp2.0/Caprica.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/bin/Debug/netcoreapp2.0/Infrastructure/Rules/Grammar/Rules.egt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/bin/Debug/netcoreapp2.0/PerformanceTests.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/bin/Debug/netcoreapp2.0/PerformanceTests.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/bin/Debug/netcoreapp2.0/PerformanceTests.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/bin/Debug/netcoreapp2.0/PerformanceTests.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/bin/Debug/netcoreapp2.0/PerformanceTests.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/obj/Debug/netcoreapp2.0/PerformanceTests.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/obj/Debug/netcoreapp2.0/PerformanceTests.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/obj/Debug/netcoreapp2.0/PerformanceTests.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/obj/Debug/netcoreapp2.0/PerformanceTests.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/obj/Debug/netcoreapp2.0/PerformanceTests.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/obj/Debug/netcoreapp2.0/PerformanceTests.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/obj/Debug/netcoreapp2.0/PerformanceTests.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/obj/PerformanceTests.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/obj/PerformanceTests.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/obj/PerformanceTests.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/PerformanceTests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Caprica/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Caprica/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -162,47 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ValueExpression.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/ValueExpression.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <marker date="1530113025031" expanded="true" signature="50:232" ph="{...}" />
-                <marker date="1530113025031" expanded="true" signature="57:163" ph="///     Evaluates to a value or set of values. ... " />
-                <marker date="1530113025031" expanded="true" signature="218:230" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VariableExpression.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Expressions/VariableExpression.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-              <folding>
-                <marker date="1530113037339" expanded="false" signature="6:173" ph="..." />
-                <marker date="1530113037339" expanded="true" signature="225:4322" ph="{...}" />
-                <marker date="1530113037339" expanded="true" signature="232:343" ph="///     Evalutes to the value of an input variable. ... " />
-                <marker date="1530113037339" expanded="true" signature="397:4320" ph="{...}" />
-                <marker date="1530113037339" expanded="true" signature="412:648" ph="///     Initializes a new instance of the &lt;see cref=&quot;T:Caprica.Infrastructure.Rules.Expressions.VariableExpressio ... " />
-                <marker date="1530113037339" expanded="true" signature="919:1250" ph="{...}" />
-                <marker date="1530113037339" expanded="true" signature="1260:1402" ph="///     Gets the property. ... " />
-                <marker date="1530113037339" expanded="true" signature="1437:1499" ph="{...}" />
-                <marker date="1530113037339" expanded="true" signature="1509:1696" ph="///     Gets the name of the input variable whose value ... " />
-                <marker date="1530113037339" expanded="true" signature="1731:1793" ph="{...}" />
-                <marker date="1530113037339" expanded="true" signature="1803:2048" ph="///     Returns a &lt;see cref=&quot;System.String&quot; /&gt; that represents this instance. ... " />
-                <marker date="1530113037339" expanded="true" signature="2090:2301" ph="{...}" />
-                <marker date="1530113037339" expanded="true" signature="2311:3101" ph="///     Evaluates the expression in the specified context. ... " />
-                <marker date="1530113037339" expanded="true" signature="3415:4086" ph="{...}" />
-                <marker date="1530113037339" expanded="true" signature="3683:3916" ph="{...}" />
-                <marker date="1530113037339" expanded="true" signature="4167:4314" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EvaluationException.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Caprica/Infrastructure/Rules/Exceptions/EvaluationException.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -373,10 +183,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableReader.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TableReader.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Caprica/GOLDEngine/IO/TableReader.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="569">
               <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <marker date="1530112785526" expanded="false" signature="6:127" ph="..." />
@@ -426,6 +236,31 @@
                 <marker date="1530112785526" expanded="true" signature="7298:7531" ph="{...}" />
                 <marker date="1530112785526" expanded="true" signature="7386:7454" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParserTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Caprica.UnitTests/ParserTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+              <folding>
+                <marker date="1530112028936" expanded="false" signature="6:46" ph="..." />
+                <marker date="1530112028936" expanded="true" signature="75:812" ph="{...}" />
+                <marker date="1530112028936" expanded="true" signature="106:810" ph="{...}" />
+                <marker date="1530112028936" expanded="true" signature="182:389" ph="{...}" />
+                <marker date="1530112028936" expanded="true" signature="487:804" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Caprica.csproj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Caprica/Caprica.csproj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -599,8 +434,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="397" />
-    <option name="y" value="236" />
+    <option name="x" value="161" />
+    <option name="y" value="175" />
     <option name="width" value="1837" />
     <option name="height" value="1303" />
   </component>
@@ -727,12 +562,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530029105604</updated>
-      <workItem from="1530029109267" duration="24970000" />
+      <workItem from="1530029109267" duration="25462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24970000" />
+    <option name="totallyTimeSpent" value="25462000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -744,7 +579,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="397" y="236" width="1837" height="1303" extended-state="0" />
+    <frame x="1627" y="649" width="1837" height="1303" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" />
@@ -752,12 +587,12 @@
       <window_info anchor="bottom" id="Unit Tests" weight="0.3041145" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2562189" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2562189" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="NuGet" visible="true" weight="0.3291874" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2373259" />
       <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Build" weight="0.32935393" />
+      <window_info anchor="bottom" id="Build" weight="0.3291874" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.19662921" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -787,50 +622,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Caprica/Extensions/CollectionExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <folding>
-            <marker date="1530111902855" expanded="false" signature="6:56" ph="..." />
-            <marker date="1530111902855" expanded="true" signature="86:2296" ph="{...}" />
-            <marker date="1530111902855" expanded="true" signature="93:256" ph="///     Defines an static class which contains extension methods of &lt;see cref=&quot;T:System.Collections.Generic.IColl ... " />
-            <marker date="1530111902855" expanded="true" signature="301:2294" ph="{...}" />
-            <marker date="1530111902855" expanded="true" signature="316:675" ph="///     Adds the specified items to the specified collection. ... " />
-            <marker date="1530111902855" expanded="true" signature="1058:1295" ph="{...}" />
-            <marker date="1530111902855" expanded="true" signature="1187:1253" ph="{...}" />
-            <marker date="1530111902855" expanded="true" signature="1305:1664" ph="///     Adds the specified items to the specified collection. ... " />
-            <marker date="1530111902855" expanded="true" signature="2051:2288" ph="{...}" />
-            <marker date="1530111902855" expanded="true" signature="2180:2246" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Caprica/Extensions/DateTimeExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1530111899407" expanded="false" signature="6:64" ph="..." />
-            <marker date="1530111899407" expanded="true" signature="94:5165" ph="{...}" />
-            <marker date="1530111899407" expanded="true" signature="101:239" ph="///     Defines an static class which contains extension methods of &lt;see cref=&quot;T:System.DateTime&quot; /&gt;. ... " />
-            <marker date="1530111899407" expanded="true" signature="282:5163" ph="{...}" />
-            <marker date="1530111899407" expanded="true" signature="297:355" ph="/// The epoch ... " />
-            <marker date="1530111899407" expanded="true" signature="469:973" ph="///     Adds the specified &lt;see cref=&quot;T:System.TimeSpan&quot; /&gt; to the &lt;see cref=&quot;T:System.DateTime&quot; /&gt; instance.. ... " />
-            <marker date="1530111899407" expanded="true" signature="1062:1169" ph="{...}" />
-            <marker date="1530111899407" expanded="true" signature="1179:1523" ph="///     Determines whether the specified target is valid. ... " />
-            <marker date="1530111899407" expanded="true" signature="1582:1795" ph="{...}" />
-            <marker date="1530111899407" expanded="true" signature="1805:2404" ph="///     Finds the next &lt;see cref=&quot;T:System.DateTime&quot; /&gt; whose &lt;see cref=&quot;T:System.DayOfWeek&quot; /&gt; equals the specif ... " />
-            <marker date="1530111899407" expanded="true" signature="2505:3021" ph="{...}" />
-            <marker date="1530111899407" expanded="true" signature="2528:2815" ph="/* g( c, d ) = [7 - (c - d)] = 7 - c + d ... */" />
-            <marker date="1530111899407" expanded="true" signature="3031:3634" ph="///     Finds the previous &lt;see cref=&quot;T:System.DateTime&quot; /&gt; whose &lt;see cref=&quot;T:System.DayOfWeek&quot; /&gt; equals the sp ... " />
-            <marker date="1530111899407" expanded="true" signature="3739:4259" ph="{...}" />
-            <marker date="1530111899407" expanded="true" signature="3762:4051" ph="/* g( c, d ) = -(7 - d + c) = -7 + d - c ... */" />
-            <marker date="1530111899407" expanded="true" signature="4269:4699" ph="///     Converts the specified &lt;see cref=&quot;T:System.DateTime&quot; /&gt; instance to Unix timestamp. ... " />
-            <marker date="1530111899407" expanded="true" signature="4766:5157" ph="{...}" />
-            <marker date="1530111899407" expanded="true" signature="4810:5007" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Caprica/Extensions/DateTimeKindExtensions.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1782,7 +1573,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Caprica/GOLDEngine/IO/TableReader.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
+        <state relative-caret-position="569">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <marker date="1530112785526" expanded="false" signature="6:127" ph="..." />
@@ -1832,6 +1623,27 @@
             <marker date="1530112785526" expanded="true" signature="7298:7531" ph="{...}" />
             <marker date="1530112785526" expanded="true" signature="7386:7454" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Caprica.UnitTests/ParserTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <marker date="1530112028936" expanded="false" signature="6:46" ph="..." />
+            <marker date="1530112028936" expanded="true" signature="75:812" ph="{...}" />
+            <marker date="1530112028936" expanded="true" signature="106:810" ph="{...}" />
+            <marker date="1530112028936" expanded="true" signature="182:389" ph="{...}" />
+            <marker date="1530112028936" expanded="true" signature="487:804" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Caprica/Caprica.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
