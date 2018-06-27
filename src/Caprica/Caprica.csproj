@@ -9,4 +9,7 @@
     <None Remove="Infrastructure\Rules\Grammar\Rules.grm" />
     <EmbeddedResource Include="Infrastructure\Rules\Grammar\Rules.grm" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.2" />
+  </ItemGroup>
 </Project>

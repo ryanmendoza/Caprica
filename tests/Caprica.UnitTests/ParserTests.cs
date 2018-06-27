@@ -12,7 +12,7 @@ namespace Caprica.UnitTests
             
             var loaded = parser.LoadTables(GetType(), "Caprica.UnitTests.Grammar.Rules.egt");
 
-            Assert.Equal(loaded, true);
+            Assert.True(loaded);
         }
         
         [Fact]
@@ -26,7 +26,7 @@ namespace Caprica.UnitTests
 
             var result = parser.Parse();
 
-            Assert.Equal(result, ParseMessageType.TokenRead);
+            Assert.Equal(ParseMessageType.TokenRead, result);
         }
     }
 }
