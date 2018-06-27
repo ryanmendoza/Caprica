@@ -1,0 +1,164 @@
+! ======================================================================================================================================================================================================
+! Rules Grammar
+! ======================================================================================================================================================================================================
+
+"Name"                                  = 'Rules Grammar'
+"Version"                               = '4.0.0.0'
+"Author"                                = ''
+"About"                                 = ''
+"Case Sensitive"                        = 'False' !DEFAULT
+"Character Mapping"                     = 'Windows-1252' !DEFAULT
+"Auto Whitespace"                       = 'True' !DEFAULT
+!"Virtual Terminals"                    = ''
+"Start Symbol"                          = <Boolean Expression>
+
+! ======================================================================================================================================================================================================
+! Character Sets
+! ======================================================================================================================================================================================================
+
+{Reference Character Set}               = {Alphanumeric}    + [-./:\_|]     ! -./0123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZ\_abcdefghijklmnopqrstuvwxyz|
+{String Character Set}                  = {Printable}       - ["]           ! {Space}!#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~{NBSP}
+{Variable Character Set}                = {Alphanumeric}    + [-./:\_|]     ! -./0123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZ\_abcdefghijklmnopqrstuvwxyz|
+
+! ======================================================================================================================================================================================================
+! Comments
+! ======================================================================================================================================================================================================
+
+Comment Start                           = '/*'
+Comment End                             = '*/'
+Comment Line                            = '//'
+
+! ======================================================================================================================================================================================================
+! Rules
+! ======================================================================================================================================================================================================
+
+! Additive Rule
+!<Additive Expression>                   ::= <Additive Expression>           '+'     <Multiplicative Expression>
+!                                         |  <Additive Expression>           '-'     <Multiplicative Expression>
+
+!                                         |  <Multiplicative Expression>
+
+! Boolean Expression Rule
+<Boolean Expression>                    ::= <Conditional AND Expression>
+
+! Conditional AND Rule
+<Conditional AND Expression>            ::= <Conditional AND Expression>    '&&'    <Conditional OR Expression>
+
+                                         |  <Conditional OR Expression>
+
+! Conditional OR Rule
+<Conditional OR Expression>             ::= <Conditional OR Expression>     '||'    <Equality Expression>
+
+                                         |  <Equality Expression>
+
+! Equality Rule
+<Equality Expression>                   ::= <Value Constant Expression>     '=='    <Variable Expression>
+                                         |  <Value Constant Expression>     '!='    <Variable Expression>
+
+                                         |  <Variable Expression>           '=='    <Value Constant Expression>
+                                         |  <Variable Expression>           '!='    <Value Constant Expression>
+
+                                         |  <In Expression>
+
+! Group Rule
+<Group Expression>                      ::= '(' <Boolean Expression> ')'
+
+! In Rule
+!   @Variable IN (####-##-##[, <Date Tuple Expression>])
+!   @Variable IN (#[, <Numeric Tuple Expression>])
+!   @Variable IN (#.#[, <Numeric Tuple Expression>])
+!   @Variable IN (\"...\"[, <String Tuple Expression>])
+<In Expression>                         ::= <Variable Expression>           'IN'    '('    <Date Tuple Expression>       ')'
+                                         |  <Variable Expression>           'IN'    '('    <Numeric Tuple Expression>    ')'
+                                         |  <Variable Expression>           'IN'    '('    <String Tuple Expression>     ')'
+
+                                         |  <Like Expression>
+
+! Date Tuple Rule
+<Date Tuple Expression>                 ::= <Date Constant Expression>      ','     <Date Tuple Expression>
+                                         |  <Date Constant Expression>
+
+! Numeric Tuple Rule
+<Numeric Tuple Expression>              ::= <Numeric Constant Expression>   ','     <Numeric Tuple Expression>
+                                         |  <Numeric Constant Expression>
+
+! String Tuple Rule
+<String Tuple Expression>               ::= <String Constant Expression>    ','     <String Tuple Expression>
+                                         |  <String Constant Expression>
+
+! Like Rule
+!   @Variable LIKE "%..."
+!   @Variable LIKE "...%"
+!   @Variable LIKE "%...%"
+<Like Expression>                       ::= <Variable Expression>           'LIKE'  <String Constant Expression>
+
+                                         |  <Relational Expression>
+
+! Multiplicative Rule
+!<Multiplicative Expression>             ::= <Multiplicative Expression>     '*'     <Negate Expression>
+!                                         |  <Multiplicative Expression>     '/'     <Negate Expression>
+!                                         |  <Multiplicative Expression>     '%'     <Negate Expression>
+
+!                                         |  <Negate Expression>
+
+! Negate Rule
+!<Negate Expression>                     ::= '-' <Numeric Constant Expression>
+
+!                                         |  '-' <Variable Expression>
+
+!                                         |  <Numeric Constant Expression>
+
+!                                         |  <Variable Expression>
+
+! Relational
+<Relational Expression>                 ::= <Value Constant Expression>     '<'     <Variable Expression>
+                                         |  <Value Constant Expression>     '>'     <Variable Expression>
+                                         |  <Value Constant Expression>     '<='    <Variable Expression>
+                                         |  <Value Constant Expression>     '>='    <Variable Expression>
+
+                                         |  <Variable Expression>           '<'     <Value Constant Expression>
+                                         |  <Variable Expression>           '>'     <Value Constant Expression>
+                                         |  <Variable Expression>           '<='    <Value Constant Expression>
+                                         |  <Variable Expression>           '>='    <Value Constant Expression>
+
+                                         |  <Reference Expression>
+
+! Reference Rule
+!   {{Reference}}
+<Reference Expression>                  ::= Reference
+
+                                         |  <Unary Expression>
+
+! Unary Rule
+<Unary Expression>                      ::= '!' <Group Expression>
+
+                                         |  <Group Expression>
+
+! Date Constant Rule
+<Date Constant Expression>              ::= Date
+
+! Numeric Constant Rule
+<Numeric Constant Expression>           ::= Integer
+                                         |  Real
+
+! String Constant Rule
+<String Constant Expression>            ::= String
+
+! Value Constant Rule
+<Value Constant Expression>             ::= <Date Constant Expression>
+                                         |  <Numeric Constant Expression>
+                                         |  <String Constant Expression>
+
+! Variable Rule
+<Variable Expression>                   ::= Variable
+ 
+! ======================================================================================================================================================================================================
+! Terminals
+! ======================================================================================================================================================================================================
+
+Date                                    = {Number}{Number}{Number}{Number}'-'{Number}{Number}'-'{Number}{Number}            ! ####-##-## - yyyy-MM-dd
+Integer                                 = {Number}+                                                                         ! #
+Real                                    = {Number}+'.'{Number}+                                                             ! #.#
+Reference                               = '{{'{Reference Character Set}+'}}'                                                ! {{Reference}}
+String                                  = '"'({String Character Set}|'\'{Printable})*'"'                                    ! ("String"|"\"Quoted String\"")
+Variable                                = '@'{Variable Character Set}+                                                      ! @Variable

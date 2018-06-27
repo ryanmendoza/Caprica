@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Infrastructure\Rules\Grammar\Rules.egt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Remove="Infrastructure\Rules\Grammar\Rules.grm" />
+    <EmbeddedResource Include="Infrastructure\Rules\Grammar\Rules.grm" />
+  </ItemGroup>
+</Project>

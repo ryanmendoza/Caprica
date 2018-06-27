@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caprica", "src\Caprica\Caprica.csproj", "{EBEF4441-8EEA-478D-B620-4965FAD056A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caprica.UnitTests", "tests\Caprica.UnitTests\Caprica.UnitTests.csproj", "{DE02DAD4-4E32-48E3-94F6-788A9C079314}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceTests", "tests\PerformanceTests\PerformanceTests.csproj", "{0D54446C-467B-47BD-94C0-89B36F5FF779}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBEF4441-8EEA-478D-B620-4965FAD056A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBEF4441-8EEA-478D-B620-4965FAD056A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBEF4441-8EEA-478D-B620-4965FAD056A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBEF4441-8EEA-478D-B620-4965FAD056A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE02DAD4-4E32-48E3-94F6-788A9C079314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE02DAD4-4E32-48E3-94F6-788A9C079314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE02DAD4-4E32-48E3-94F6-788A9C079314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE02DAD4-4E32-48E3-94F6-788A9C079314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D54446C-467B-47BD-94C0-89B36F5FF779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D54446C-467B-47BD-94C0-89B36F5FF779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D54446C-467B-47BD-94C0-89B36F5FF779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D54446C-467B-47BD-94C0-89B36F5FF779}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
